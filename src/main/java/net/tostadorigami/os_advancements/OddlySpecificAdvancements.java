@@ -22,6 +22,7 @@ public class OddlySpecificAdvancements
     public static final String MOD_ID = "os_advancements";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
     public OddlySpecificAdvancements(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
