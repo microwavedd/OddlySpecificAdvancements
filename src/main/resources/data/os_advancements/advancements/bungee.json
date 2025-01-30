@@ -1,0 +1,45 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Extreme Bungee Jumping",
+            "color": "dark_purple",
+            "bold": false,
+            "italic": true
+        },
+        "description": {
+            "text": "Die to the Void."
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "voidkill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": -64,
+                                "max": -64
+                            }
+                        }
+                    },
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "voidkill"
+        ]
+    ],
+    "parent": "os_advancements:root"
+}

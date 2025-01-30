@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherrack"
+      },
+      "title": "The Sky Is The Limit",
+      "description": "Reach the Nether Roof.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "os_advancements:root",
+    "criteria": {
+      "monument": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "y": {
+                      "min": 128,
+                      "max": 150
+                    }
+                  },
+                  "dimension": "minecraft:the_nether"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "monument"
+      ]
+    ]
+  }
