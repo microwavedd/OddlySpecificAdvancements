@@ -41,5 +41,5 @@
             "voidkill"
         ]
     ],
-    "parent": "os_advancements:root"
+    "parent": "minecraft:end/root"
 }

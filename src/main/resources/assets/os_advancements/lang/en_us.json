@@ -3,5 +3,14 @@
     "advancement.os_advancements.touching_grass.description": "Obtain a grass block. \n(Congrats!!!1!!)",
 
           "advancement.os_advancements.enchanted_apple.title": "One Life And A Half",
-  "advancement.os_advancements.enchanted_apple.description": "Obtain an enchanted golden apple."
+  "advancement.os_advancements.enchanted_apple.description": "Obtain an enchanted golden apple.",
+
+      "advancement.os_advancements.gourmet_dorado.title": "Gouldmet Experience",
+    "advancement.os_advancements.gourmet_dorado.description": "Eat every golden food in the game.",
+
+    "advancement.os_advancements.nether_roof.description": "Reach the Nether Roof.",
+    "advancement.os_advancements.nether_roof.title": "The Sky Is Not The Limit",
+
+            "advancement.os_advancements.cama_tierra_manta.title": "What a Night!",
+        "advancement.os_advancements.cama_tierra_manta.description": "<Sleep> in all three dimensions."
   }

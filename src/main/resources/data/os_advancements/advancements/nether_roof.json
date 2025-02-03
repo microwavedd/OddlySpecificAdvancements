@@ -3,14 +3,18 @@
       "icon": {
         "item": "minecraft:netherrack"
       },
-      "title": "The Sky Is The Limit",
-      "description": "Reach the Nether Roof.",
+      "title": {
+        "translate": "advancement.os_advancements.nether_roof.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.nether_roof.description"
+      },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": true
     },
-    "parent": "os_advancements:root",
+    "parent": "minecraft:nether/root",
     "criteria": {
       "monument": {
         "trigger": "minecraft:location",

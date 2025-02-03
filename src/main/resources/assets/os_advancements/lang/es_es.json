@@ -3,5 +3,16 @@
     "advancement.os_advancements.touching_grass.description": "Obtén un bloque de césped. \n(Felicidades!!!1!!)",
 
       "advancement.os_advancements.enchanted_apple.title": "Vida y Media",
-  "advancement.os_advancements.enchanted_apple.description": "Obtén una manzana dorada encantada."
+  "advancement.os_advancements.enchanted_apple.description": "Obtén una manzana dorada encantada.",
+
+
+    "advancement.os_advancements.gourmet_dorado.title": "Estómago de Midas",
+    "advancement.os_advancements.gourmet_dorado.description": "Come todas las comidas doradas del juego.",
+
+    "advancement.os_advancements.nether_roof.description": "Llega al techo del Nether.",
+    "advancement.os_advancements.nether_roof.title": "El Cielo No Es El Límite",
+
+        "advancement.os_advancements.cama_tierra_manta.title": "Noche Movidita",
+        "advancement.os_advancements.cama_tierra_manta.description": "<Duerme> en el Overworld, Nether y End."
+
   }
