@@ -11,6 +11,28 @@
     "advancement.os_advancements.nether_roof.description": "Reach the Nether Roof.",
     "advancement.os_advancements.nether_roof.title": "The Sky Is Not The Limit",
 
-            "advancement.os_advancements.cama_tierra_manta.title": "What a Night!",
-        "advancement.os_advancements.cama_tierra_manta.description": "<Sleep> in all three dimensions."
+    "advancement.os_advancements.cama_tierra_manta.title": "What a Night!",
+    "advancement.os_advancements.cama_tierra_manta.description": "<Sleep> in all three dimensions.",
+
+    "advancement.os_advancements.apropiacion_cultural.title": "Cultural Appropriation",
+    "advancement.os_advancements.apropiacion_cultural.description": "Kill a zombie with rotten flesh, a skeleton with a bone, or a Blaze with a Blaze rod.",
+
+    "advancement.os_advancements.richreferencia.title": "Long Light Lamp",
+        "advancement.os_advancements.richreferencia.description": "Obtain an end rod.",
+
+                "advancement.os_advancements.wardenkill.title": "And Good Riddance!",
+            "advancement.os_advancements.wardenkill.description": "Kill the Warden, defender of the ancient undercity."
+    ,
+    "advancement.os_advancements.bdsm.title": "Why?",
+    "advancement.os_advancements.bdsm.description": "Kill an innocent sheep with an end rod.",
+
+  "advancement.os_advancements.siete_vidas.title": "As If A Cat",
+  "advancement.os_advancements.siete_vidas.description": "Cheat death using a totem of undying 7 times.",
+
+  "advancement.os_advancements.inmortal.title": "Queen of England",
+  "advancement.os_advancements.inmortal.description": "Use a totem of undying 100 times.\n Just die already...",
+
+  "advancement.os_advancements.over_the_garden_wall.title": "Over the Garden Wall",
+  "advancement.os_advancements.over_the_garden_wall.description": "Plant every flower in the game. \n What a beautiful garden you'll have!"
+            
   }

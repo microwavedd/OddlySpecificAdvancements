@@ -12,7 +12,31 @@
     "advancement.os_advancements.nether_roof.description": "Llega al techo del Nether.",
     "advancement.os_advancements.nether_roof.title": "El Cielo No Es El Límite",
 
-        "advancement.os_advancements.cama_tierra_manta.title": "Noche Movidita",
-        "advancement.os_advancements.cama_tierra_manta.description": "<Duerme> en el Overworld, Nether y End."
+    "advancement.os_advancements.cama_tierra_manta.title": "Noche Movidita",
+    "advancement.os_advancements.cama_tierra_manta.description": "<Duerme> en el Overworld, Nether y End.",
+
+    "advancement.os_advancements.apropiacion_cultural.title": "Apropiación Cultural",
+    "advancement.os_advancements.apropiacion_cultural.description": "Mata a un zombie con carne podrida o a un esqueleto con un hueso o a un Blaze con una vara de Blaze.",
+
+     "advancement.os_advancements.richreferencia.title": "Algo Nuevo Que Da Luz",
+     "advancement.os_advancements.richreferencia.description": "ElRichMC estaría orgulloso de ti.",
+     
+     "advancement.os_advancements.wardenkill.title": "A Más Ver",
+   "advancement.os_advancements.wardenkill.description": "Mata al Warden, defensor de la subterránea ciudad antigua.",
+
+    "advancement.os_advancements.bdsm.title": "¿Por Qué?",
+    "advancement.os_advancements.bdsm.description": "Mata a una inocente oveja con una vara del end.",
+
+  "advancement.os_advancements.siete_vidas.title": "Siete Vidas",
+  "advancement.os_advancements.siete_vidas.description": "Engaña a la muerte con un totem de la inmortalidad 7 veces.",
+
+  "advancement.os_advancements.inmortal.title": "Reina de Inglaterra",
+  "advancement.os_advancements.inmortal.description": "Usa un totem de la inmortalidad 100 veces.\n A ver si te mueres ya...",
+
+  "advancement.os_advancements.over_the_garden_wall.title": "Más Allá del Jardín",
+  "advancement.os_advancements.over_the_garden_wall.description": "Planta todas y cada una de las flores del juego.\n ¡Qué bonito jardín tendrás!"
+              
+    
+          
 
   }
