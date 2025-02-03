@@ -1,21 +1,14 @@
 {
-"display": {
-    "icon": {
-      "item": "minecraft:grass_block"
-    },
-    "title": "Touching Grass",
-    "description": "Congratulations! You've touched grass for the first time!",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true
-  },
+  "parent": "minecraft:story/root",
   "criteria": {
-    "obtener_cesped": {
+    "obtener_bloque_cesped": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:grass_block"
+            "items": [
+              "minecraft:grass_block"
+            ]
           }
         ]
       }
@@ -23,9 +16,25 @@
   },
   "requirements": [
     [
-      "obtener_cesped"
+      "obtener_bloque_cesped"
     ]
   ],
-
-    "parent": "os_advancements:root"
+  "rewards": {
+    "experience": 10
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancement.os_advancements.touching_grass.title"
+    },
+    "description": {
+      "translate": "advancement.os_advancements.touching_grass.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
 }

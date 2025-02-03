@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:story/enchant_item",
+    "criteria": {
+      "obtener_manzana_encantada": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:enchanted_golden_apple"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "obtener_manzana_encantada"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.enchanted_apple.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.enchanted_apple.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }
