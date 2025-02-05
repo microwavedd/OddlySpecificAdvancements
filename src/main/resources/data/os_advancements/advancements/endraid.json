@@ -5,10 +5,10 @@
       "item": "minecraft:chorus_fruit"
     },
     "title": {
-      "translate": "advancement.os_advancements.end.start_raid_in_end.title"
+      "translate": "advancement.os_advancements.endraid.title"
     },
     "description": {
-      "translate": "advancement.os_advancements.end.start_raid_in_end.description"
+      "translate": "advancement.os_advancements.endraid.description"
     },
     "frame": "challenge",
     "show_toast": true,
