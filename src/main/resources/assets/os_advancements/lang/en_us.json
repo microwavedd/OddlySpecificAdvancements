@@ -12,5 +12,8 @@
     "advancement.os_advancements.nether_roof.title": "The Sky Is Not The Limit",
 
             "advancement.os_advancements.cama_tierra_manta.title": "What a Night!",
-        "advancement.os_advancements.cama_tierra_manta.description": "<Sleep> in all three dimensions."
+        "advancement.os_advancements.cama_tierra_manta.description": "<Sleep> in all three dimensions.",
+
+        "advancement.os_advancements.endraid.description": "Start a Raid against a village in the End dimension.",
+    "advancement.os_advancements.endraid.title": "Star Wars"
   }
