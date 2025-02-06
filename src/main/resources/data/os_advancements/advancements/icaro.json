@@ -1,46 +1,47 @@
 {
-    "parent": "minecraft:end/elytra",
-    "criteria": {
-      "fly_high": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancement.os_advancements.icaro.title"
+    },
+    "description": {
+      "translate": "advancement.os_advancements.icaro.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
                 "position": {
                   "y": {
-                    "min": 420
+                    "min": 1000,
+                    "max": 1100
                   }
                 },
-                "dimension": "minecraft:overworld"
+                  "dimension": "minecraft:overworld"
               }
-            },
-            {
-              "condition": "minecraft:using_item",
-              "item": "minecraft:elytra"
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "os_advancements:grant_icaro_achievement"
-    },
-    "display": {
-      "icon": {
-        "item": "minecraft:elytra",
-        "nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:3}]}"
-      },
-      "title": {
-        "translate": "advancement.os_advancements.icaro.title"
-      },
-      "description": {
-        "translate": "advancement.os_advancements.icaro.description"
-      },
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
     }
-  }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ]
+}

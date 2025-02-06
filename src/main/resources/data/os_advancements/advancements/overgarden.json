@@ -1,0 +1,297 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:torchflower",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "advancement.os_advancements.overgarden.title"
+    },
+    "description": {
+      "translate": "advancement.os_advancements.overgarden.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rose_bush": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:rose_bush"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:dandelion"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:poppy"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:blue_orchid"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:allium"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "azure_bluet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:azure_bluet"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:red_tulip"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:orange_tulip"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:white_tulip"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:pink_tulip"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:oxeye_daisy"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:cornflower"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:lily_of_the_valley"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wither_rose"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "sunflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:sunflower"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "lilac": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:lilac"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "peony": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:peony"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rose_bush",
+      "dandelion",
+      "poppy",
+      "blue_orchid",
+      "allium",
+      "azure_bluet",
+      "red_tulip",
+      "orange_tulip",
+      "white_tulip",
+      "pink_tulip",
+      "oxeye_daisy",
+      "cornflower",
+      "lily_of_the_valley",
+      "wither_rose",
+      "sunflower",
+      "lilac",
+      "peony"
+    ]
+  ]
+}

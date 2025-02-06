@@ -1,41 +1,46 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": {
-        "translate": "advancement.os_advancements.bdsm.title"
-      },
-        "description": {
-        "translate": "advancement.os_advancements.bdsm.description"
-      }
-        },
-        "icon": {
-            "item": "minecraft:end_rod"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true,
-
-    "criteria": {
-        "endrodkill": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "equipment": {
-                        "mainhand": {
-                            "item": "minecraft:end_rod"
-                        }
-                    },
-                    "type": "minecraft:sheep"
-                }
-            }
-        }
+  "parent": "os_advancements:richreferencia",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_rod"
     },
-    "requirements": [
-        [
-            "endrodkill"
-        ]
-    ],
-    "parent": "minecraft:end/root"
-
+    "title": {
+      "text": "BDSM"
+    },
+    "description": {
+      "text": "..."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_sheep_with_end_rod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:sheep"
+        },
+        "killing_blow": {
+          "is_projectile": false,
+          "direct_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:end_rod"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_sheep_with_end_rod"
+    ]
+  ]
 }
