@@ -5,15 +5,12 @@
       "advancement.os_advancements.enchanted_apple.title": "Vida y Media",
   "advancement.os_advancements.enchanted_apple.description": "Obtén una manzana dorada encantada.",
 
-
     "advancement.os_advancements.gourmet_dorado.title": "Estómago de Midas",
     "advancement.os_advancements.gourmet_dorado.description": "Come todas las comidas doradas del juego.",
 
     "advancement.os_advancements.nether_roof.description": "Llega al techo del Nether.",
     "advancement.os_advancements.nether_roof.title": "El Cielo No Es El Límite",
 
-    "advancement.os_advancements.cama_tierra_manta.title": "Noche Movidita",
-    "advancement.os_advancements.cama_tierra_manta.description": "<Duerme> en el Overworld, Nether y End.",
 
     "advancement.os_advancements.apropiacion_cultural.title": "Apropiación Cultural",
     "advancement.os_advancements.apropiacion_cultural.description": "Mata a un zombie con carne podrida o a un esqueleto con un hueso o a un Blaze con una vara de Blaze.",
@@ -27,16 +24,16 @@
     "advancement.os_advancements.bdsm.title": "¿Por Qué?",
     "advancement.os_advancements.bdsm.description": "Mata a una inocente oveja con una vara del end.",
 
-  "advancement.os_advancements.siete_vidas.title": "Siete Vidas",
-  "advancement.os_advancements.siete_vidas.description": "Engaña a la muerte con un totem de la inmortalidad 7 veces.",
-
-  "advancement.os_advancements.inmortal.title": "Reina de Inglaterra",
-  "advancement.os_advancements.inmortal.description": "Usa un totem de la inmortalidad 100 veces.\n A ver si te mueres ya...",
-
-  "advancement.os_advancements.over_the_garden_wall.title": "Más Allá del Jardín",
-  "advancement.os_advancements.over_the_garden_wall.description": "Planta todas y cada una de las flores del juego.\n ¡Qué bonito jardín tendrás!"
-              
+  "advancement.os_advancements.end.overthegard.title": "Más Allá del Jardín",
+  "advancement.os_advancements.end.overthegard.description": "Planta todas y cada una de las flores del juego.\n¡Qué bonito jardín tendrás!",
     
+
+  "advancement.os_advancements.recuperacion.description": "Construye una brújula de recuperación; Objeto que te permite volver al lugar donde moriste la última vez.",
+  "advancement.os_advancements.recuperacion.title": "Encontrarse a uno mismo",
+
+    "advancement.os_advancements.icaro.title": "Ícaro",
+    "advancement.os_advancements.icaro.description": "Vuela a más de 420 bloques de altura en el Overworld con elytras."
+
           
 
   }

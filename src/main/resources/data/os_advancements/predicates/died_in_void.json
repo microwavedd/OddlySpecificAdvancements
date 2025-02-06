@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "nbt": "{DeathDimension:\"minecraft:the_end\",DeathCause:{type:\"minecraft:out_of_world\"}}"
+    }
+  }

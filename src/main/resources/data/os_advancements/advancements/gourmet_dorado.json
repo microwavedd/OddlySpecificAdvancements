@@ -1,0 +1,60 @@
+{
+    "parent": "os_advancements:enchanted_apple",
+    "criteria": {
+      "comer_zanahoria_dorada": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          }
+        }
+      },
+      "comer_manzana_dorada": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        }
+      },
+      "comer_manzana_dorada_encantada": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:enchanted_golden_apple"
+            ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "comer_zanahoria_dorada",
+        "comer_manzana_dorada",
+        "comer_manzana_dorada_encantada"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:glistering_melon_slice"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.gourmet_dorado.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.gourmet_dorado.description"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

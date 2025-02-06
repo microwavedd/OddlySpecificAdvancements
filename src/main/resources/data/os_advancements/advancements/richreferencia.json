@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "criteria": {
+      "obtener_varilla_de_end": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:end_rod"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "obtener_varilla_de_end"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:end_rod"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.richreferencia.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.richreferencia.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    }
+  }

@@ -1,0 +1,75 @@
+{
+    "parent": "minecraft:nether/obtain_blaze_rod",
+    "criteria": {
+      "matar_zombie_con_carne_podrida": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:zombie"
+          },
+          "killing_blow": {
+            "is_projectile": false,
+            "direct_entity": {
+              "type": "minecraft:player",
+              "nbt": "{SelectedItem:{id:\"minecraft:rotten_flesh\"}}"
+            }
+          }
+        }
+      },
+      "matar_esqueleto_con_hueso": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:skeleton"
+          },
+          "killing_blow": {
+            "is_projectile": false,
+            "direct_entity": {
+              "type": "minecraft:player",
+              "nbt": "{SelectedItem:{id:\"minecraft:bone\"}}"
+            }
+          }
+        }
+      },
+      "matar_blaze_con_varilla_de_blaze": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:blaze"
+          },
+          "killing_blow": {
+            "is_projectile": false,
+            "direct_entity": {
+              "type": "minecraft:player",
+              "nbt": "{SelectedItem:{id:\"minecraft:blaze_rod\"}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "matar_zombie_con_carne_podrida",
+        "matar_esqueleto_con_hueso",
+        "matar_blaze_con_varilla_de_blaze"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:bone"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.apropiacion_cultural.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.apropiacion_cultural.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    }
+  }

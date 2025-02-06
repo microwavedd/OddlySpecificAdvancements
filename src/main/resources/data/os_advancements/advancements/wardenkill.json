@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "matar_warden": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:warden"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "matar_warden"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:sculk_catalyst"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.wardenkill.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.wardenkill.description"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

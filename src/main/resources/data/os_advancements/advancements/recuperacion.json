@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "obtener_bloque": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:recovery_compass"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "obtener_bloque"
+      ]
+    ],
+    "rewards": {
+      "experience": 10
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:recovery_compass"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.recuperacion.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.recuperacion.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

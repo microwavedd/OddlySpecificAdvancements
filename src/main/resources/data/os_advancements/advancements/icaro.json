@@ -1,0 +1,46 @@
+{
+    "parent": "minecraft:end/elytra",
+    "criteria": {
+      "fly_high": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "min": 420
+                  }
+                },
+                "dimension": "minecraft:overworld"
+              }
+            },
+            {
+              "condition": "minecraft:using_item",
+              "item": "minecraft:elytra"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "os_advancements:grant_icaro_achievement"
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:elytra",
+        "nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:3}]}"
+      },
+      "title": {
+        "translate": "advancement.os_advancements.icaro.title"
+      },
+      "description": {
+        "translate": "advancement.os_advancements.icaro.description"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

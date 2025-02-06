@@ -2,15 +2,11 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "BDSM",
-            "strikethrough": false,
-            "obfuscated": false,
-            "underlined": false,
-            "italic": false,
-            "bold": false
-        },
+        "translate": "advancement.os_advancements.bdsm.title"
+      },
         "description": {
-            "text": "Obliterate a sheep with an end rod."
+        "translate": "advancement.os_advancements.bdsm.description"
+      }
         },
         "icon": {
             "item": "minecraft:end_rod"
@@ -18,8 +14,8 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true
-    },
+        "hidden": true,
+
     "criteria": {
         "endrodkill": {
             "trigger": "minecraft:player_killed_entity",
@@ -40,5 +36,6 @@
             "endrodkill"
         ]
     ],
-    "parent": "minecraft:end/enter_end_gateway"
+    "parent": "minecraft:end/root"
+
 }
